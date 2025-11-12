@@ -1,1 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Portofolio Putri Mawar Falensia</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+    body {
+      font-family: 'Montserrat', Arial, sans-serif;
+      background: linear-gradient(120deg, #f8f8f8 0%, #cce5ff 100%);
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 900px;
+      background: #fff;
+      margin: 40px auto;
+      box-shadow: 0 8px 32px rgba(70,137,220,0.14);
+      border-radius: 16px;
+      padding: 40px 30px;
+      position: relative;
+    }
+    .profile-img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #4689dc;
+      margin-right: 28px;
+      box-shadow: 0 2px 8px rgba(70,137,220,0.09);
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+    .header-info h1 {
+      margin: 0;
+      font-size: 2.4em;
+      color: #4689dc;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    .header-info p {
+      font-size: 1.12em;
+      margin: 0;
+      color: #555;
+    }
+    .section-title {
+      margin-top: 32px;
+      margin-bottom: 16px;
+      font-size: 1.25em;
+      color: #4689dc;
+      font-weight: 600;
+      border-left: 6px solid #4689dc;
+      padding-left: 12px;
+    }
+    .about, .skill-list, .project-list, .contact {
+      line-height: 1.7;
+      font-size: 1.05em;
+      margin-bottom: 24px;
+    }
+    .skill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .skill-item {
+      background: #e9f2ff;
+      border-radius: 24px;
+      padding: 8px 16px;
+      font-size: 0.97em;
+      color: #4689dc;
+      box-shadow: 0 1px 4px rgba(70,137,220,0.07);
+      margin-bottom: 4px;
+    }
+    .project-list{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .project-list li{
+      background: #fafcff;
+      margin-bottom: 9px;
+      border-radius: 12px;
+      box-shadow: 0 1px 4px rgba(70,137,220,0.07);
+      padding: 12px 18px;
+    }
+    .contact {
+      background: #e9f2ff;
+      border-radius: 12px;
+      padding: 12px 18px;
+      color: #222;
+      box-shadow: 0 2px 8px rgba(70,137,220,0.04);
+      width: fit-content;
+    }
+    .contact a {
+      color: #4689dc;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.2s;
+    }
+    .contact a:hover {
+      color: #095284;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 18px 8px;
+      }
+      .header {
+        flex-direction: column;
+        align-items: start;
+      }
+      .profile-img {
+        margin-right: 0;
+        margin-bottom: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="header">
+      <!-- Ganti src foto dengan foto pribadi jika punya -->
+      <img src="https://i.ibb.co/p1q5FkN/avatar-portofolio.png" alt="Foto Putri Mawar Falensia" class="profile-img">
+      <div class="header-info">
+        <h1>Putri Mawar Falensia</h1>
+        <p>Siswa SMK | Calon Profesional IT</p>
+      </div>
+    </section>
 
+    <div class="section-title">Tentang Saya</div>
+    <div class="about">
+      Halo! Nama saya <b>Putri Mawar Falensia</b>. Saya adalah siswa SMK yang bersemangat dalam bidang teknologi informasi dan desain web. Saya senang belajar hal baru dan siap berkontribusi secara profesional di dunia kerja. Saat ini saya sedang mengasah kemampuan programming, desain, dan komunikasi. Saya memiliki motivasi tinggi untuk terus berkembang dan beradaptasi dengan kebutuhan industri modern.
+    </div>
+
+    <div class="section-title">Keahlian</div>
+    <div class="skill-list">
+      <span class="skill-item">HTML & CSS</span>
+      <span class="skill-item">JavaScript Dasar</span>
+      <span class="skill-item">Desain UI/UX</span>
+      <span class="skill-item">Microsoft Office</span>
+      <span class="skill-item">Edit Foto (Canva, Photoshop)</span>
+      <span class="skill-item">Komunikasi Efektif</span>
+      <span class="skill-item">Kerja Tim</span>
+    </div>
+
+    <div class="section-title">Proyek / Pengalaman</div>
+    <ul class="project-list">
+      <li>
+        <b>Website Profil Sekolah</b><br>
+        Membuat dan mendesain website profil sekolah sebagai tugas akhir, menggunakan HTML dan CSS.
+      </li>
+      <li>
+        <b>Desain Poster & Konten Media Sosial</b><br>
+        Membantu membuat desain poster kegiatan dan konten media sosial sekolah menggunakan Canva & Photoshop.
+      </li>
+      <li>
+        <b>Praktek Kerja Industri</b><br>
+        Melakukan magang selama 3 bulan di perusahaan lokal, membantu data entry dan administrasi kantor.
+      </li>
+    </ul>
+
+    <div class="section-title">Kontak</div>
+    <div class="contact">
+      Email: <a href="mailto:putrimawarfalensia@email.com">putrimawarfalensia@email.com</a><br>
+      Telepon: <a href="https://wa.me/6281234567890" target="_blank">0812-3456-7890</a><br>
+      LinkedIn: <a href="https://www.linkedin.com/in/putrimawar" target="_blank">linkedin.com/in/putrimawar</a>
+    </div>
+  </div>
+</body>
+</html>
